@@ -5,11 +5,11 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 
 ## How install this gym website
-npm i
-npm i swiper
-npm i axios
-npm i lucide-react
-npm i zustand
+npm i,
+npm i swiper,
+npm i axios,
+npm i lucide-react,
+npm i zustand,
 
 npm install tailwindcss @tailwindcss/vite
 # Configer file
