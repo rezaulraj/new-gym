@@ -1,6 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+All are the dynamic porduct and dynamic category form api with skeleton loading and many more. 
 
 
 
