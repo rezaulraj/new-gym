@@ -1,10 +1,9 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  //   baseURL:
-  //     import.meta.mode === "development" ? "http://localhost:4000/api" : "/api",
-  baseURL: "https://67d6992d286fdac89bc262e0.mockapi.io/api",
-  //   withCredentials: true,
+  baseURL:
+    import.meta.env.VITE_API_BASE_URL ||
+    "https://67d6992d286fdac89bc262e0.mockapi.io/api",
 });
 
 export default axiosInstance;
